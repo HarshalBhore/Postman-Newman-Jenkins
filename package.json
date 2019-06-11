@@ -1,0 +1,25 @@
+{
+  "name": "postman-newman-github-jenkins",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://HarshalBhore:Sparatan$619@github.com/HarshalBhore/Postman-Newman-Jenkins.git"
+  },
+  "author": "Harshal Bhore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshalBhore/Postman-Newman-Jenkins/issues"
+  },
+  "homepage": "https://github.com/HarshalBhore/Postman-Newman-Jenkins#readme",
+  "dependencies": {
+    "newman": "^4.5.0"
+  }
+}
