@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "newman run tests/JSONplaceholder.com.postman_collection.json --reprters junit --reporter-junit-export newman.xml"
   },
   "repository": {
     "type": "git",
